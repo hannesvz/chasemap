@@ -15,7 +15,6 @@ function setup() {
   let params = getURLParams();
   sx = (typeof params.x != 'undefined') ? params.x : 10;
   sy = (typeof params.y != 'undefined') ? params.y : 10;
-  console.log(sx, sy);
   createCanvas(size * sx, size * sy);
 }
 
