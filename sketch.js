@@ -1,10 +1,7 @@
 const size = 358;
  
-let px;
-let py;
-
-const sx = 10;
-const sy = 10;
+let sx;
+let sy;
 
 let img = [];
 
@@ -16,9 +13,8 @@ function preload() {
 
 function setup() {
   let params = getURLParams();
-  px = (params.x) ? params.x : 10;
-  py = (params.y) ? params.y : 10;
-  console.log(px,py);
+  sx = (params.x) ? params.x : 10;
+  sy = (params.y) ? params.y : 10;
 
   createCanvas(size * sx, size * sy);
 }
