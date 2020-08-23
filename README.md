@@ -9,3 +9,5 @@ You can pass the `x` and `y` query string parameters to set the number of horizo
 ### Artist's Patreon page
 
 https://www.patreon.com/posts/chase-tile-36287683
+
+[Demo here](https://hannesvz.github.io/chasemap/).
